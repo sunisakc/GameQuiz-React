@@ -30,9 +30,9 @@ class AuthorQuiz extends Component {
       <Hero/> 
       <Turn/> 
       <Continue /> 
-      (Footer /)
+      <Footer />
     </div>
-  );
+  )
 }
 }
 export default AuthorQuiz;
