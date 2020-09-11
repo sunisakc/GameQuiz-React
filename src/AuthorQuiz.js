@@ -20,6 +20,9 @@ function Continue() {
   return (<div/>);
 }
 
+function Footer() {
+  return (<div/>);
+}
 class AuthorQuiz extends Component {
   render() {
   return (
@@ -27,8 +30,9 @@ class AuthorQuiz extends Component {
       <Hero/> 
       <Turn/> 
       <Continue /> 
+      <Footer />
     </div>
-  );
+  )
 }
 }
 export default AuthorQuiz;
